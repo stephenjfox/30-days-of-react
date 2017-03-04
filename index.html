@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@15.3.1/dist/react.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/react-dom@15.3.1/dist/react-dom.min.js" charset="utf-8"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const app = <h1>Hello World</h1>
+      const mountComponent = document.querySelector("#app");
+      ReactDOM.render(app, mountComponent);
+    </script>
+  </body>
+</html>
